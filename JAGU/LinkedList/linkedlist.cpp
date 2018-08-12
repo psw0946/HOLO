@@ -112,7 +112,7 @@ void LinkedList<T>::deleteLinkedList() {
 template <typename T>
 void LinkedList<T>::clearLinkedList() {
 	if (this != NULL) {
-		if (this->currentElementCount > 0) {
+		while (this->currentElementCount > 0) {
 			removeLLElement(0);
 		}
 	}
