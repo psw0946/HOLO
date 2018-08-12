@@ -11,15 +11,15 @@ public:
 template <typename T>
 class LinkedList {
 public:
-	int currentElementCount;
-	ListNode<T> headerNode;
+	int currentElementCount; // 현재 저장된 원소의 개수
+	ListNode<T> headerNode; // 헤더 노드 (Header Node)
 
 	LinkedList* createLinkedList();
 	T addLLElement(int position, ListNode<T> element);
 	T removeLLElement(int position);
 	ListNode<T>* getLLElement(int position);
 
-	void clearLinkedList(); // �̰� �� �ִ��� �𸣰���...
+	void clearLinkedList(); // 이건 왜 있는지 모르겠음...
 	T getLinkedListLength();
 	void deleteLinkedList();
 	T isEmpty();
