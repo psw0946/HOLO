@@ -167,7 +167,7 @@ int ArrayGraph::removeVertexAG(int vertexID) {
 	int i = 0;
 
 	if (this != NULL) {
-		if (!checkVertexValid(vertexID) != SUCCESS) {
+		if (checkVertexValid(vertexID) != SUCCESS) {
 			ret = FAIL;
 			return ret;
 		}
