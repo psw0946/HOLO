@@ -12,138 +12,166 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/WebCrawler$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1537495335997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WebCrawler$download3_6_1.coverage" NAME="download3-6-1 Coverage Results" MODIFIED="1538273446048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_7_2.coverage" NAME="download2-7-2 Coverage Results" MODIFIED="1537623156943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$json_3.coverage" NAME="json-3 Coverage Results" MODIFIED="1538451738338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_5_3.coverage" NAME="download2-5-3 Coverage Results" MODIFIED="1537608485210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_6_1.coverage" NAME="download2-6-1 Coverage Results" MODIFIED="1537608597246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$youtube_downloader_assignment.coverage" NAME="youtube-downloader-assignment Coverage Results" MODIFIED="1537543594552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youtube" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_2.coverage" NAME="download2-2 Coverage Results" MODIFIED="1537495801813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WebCrawler$python_class_4.coverage" NAME="python_class_4 Coverage Results" MODIFIED="1537718959750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_3_1.coverage" NAME="download2-3-1 Coverage Results" MODIFIED="1537608052073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Download" />
-    <SUITE FILE_PATH="coverage/WebCrawler$python_class_1.coverage" NAME="python_class_1 Coverage Results" MODIFIED="1537718235281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_3_2.coverage" NAME="download2-3-2 Coverage Results" MODIFIED="1537608143136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Download" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download3_3_2.coverage" NAME="download3-3-2 Coverage Results" MODIFIED="1538106550123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_7_4.coverage" NAME="4-7-4 Coverage Results" MODIFIED="1538548716664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_8_2.coverage" NAME="download2-8-2 Coverage Results" MODIFIED="1537717492253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$set.coverage" NAME="set Coverage Results" MODIFIED="1538362581906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/DataType" />
     <SUITE FILE_PATH="coverage/WebCrawler$download3_6_assignment.coverage" NAME="download3-6-assignment Coverage Results" MODIFIED="1538275304053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download3_2_1.coverage" NAME="download3-2-1 Coverage Results" MODIFIED="1538104618255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
     <SUITE FILE_PATH="coverage/WebCrawler$download3_2_3.coverage" NAME="download3-2-3 Coverage Results" MODIFIED="1538197478879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download3_7_1.coverage" NAME="download3-7-1 Coverage Results" MODIFIED="1538309455762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
-    <SUITE FILE_PATH="coverage/WebCrawler$xml.coverage" NAME="xml Coverage Results" MODIFIED="1538357917060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
     <SUITE FILE_PATH="coverage/WebCrawler$download3_3_1.coverage" NAME="download3-3-1 Coverage Results" MODIFIED="1538106202025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
-    <SUITE FILE_PATH="coverage/WebCrawler$tuple.coverage" NAME="tuple Coverage Results" MODIFIED="1538361836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/DataType" />
     <SUITE FILE_PATH="coverage/WebCrawler$download3_2_2.coverage" NAME="download3-2-2 Coverage Results" MODIFIED="1538104979653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_2_2.coverage" NAME="download2-2-2 Coverage Results" MODIFIED="1537496319691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WebCrawler$youtube_downloader.coverage" NAME="youtube-downloader Coverage Results" MODIFIED="1537542788072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youtube" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_3_3.coverage" NAME="download2-3-3 Coverage Results" MODIFIED="1537608188996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Download" />
-    <SUITE FILE_PATH="coverage/WebCrawler$python_class_3.coverage" NAME="python_class_3 Coverage Results" MODIFIED="1537718712374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_assignmnet.coverage" NAME="download2-assignmnet Coverage Results" MODIFIED="1537498100882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/WebCrawler$4_1.coverage" NAME="4-1 Coverage Results" MODIFIED="1538356418699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_6_3.coverage" NAME="download2-6-3 Coverage Results" MODIFIED="1537601174606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_5_2.coverage" NAME="download2-5-2 Coverage Results" MODIFIED="1537608417512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_5_3.coverage" NAME="4-5-3 Coverage Results" MODIFIED="1538536553040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_7_1.coverage" NAME="download2-7-1 Coverage Results" MODIFIED="1537622308409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
-    <SUITE FILE_PATH="coverage/WebCrawler$json_1.coverage" NAME="json-1 Coverage Results" MODIFIED="1538450220099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
     <SUITE FILE_PATH="coverage/WebCrawler$json_assignment.coverage" NAME="json-assignment Coverage Results" MODIFIED="1538452345916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/WebCrawler$xml_assignment.coverage" NAME="xml_assignment Coverage Results" MODIFIED="1538359679747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_5_1.coverage" NAME="download2-5-1 Coverage Results" MODIFIED="1537586788040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_5_4.coverage" NAME="download2-5-4 Coverage Results" MODIFIED="1537588721081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$python_class_5.coverage" NAME="python_class_5 Coverage Results" MODIFIED="1537719237761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
     <SUITE FILE_PATH="coverage/WebCrawler$4_3_1.coverage" NAME="4-3-1 Coverage Results" MODIFIED="1538361155250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/DataType" />
-    <SUITE FILE_PATH="coverage/WebCrawler$json_2.coverage" NAME="json-2 Coverage Results" MODIFIED="1538450412609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_7_3.coverage" NAME="download2-7-3 Coverage Results" MODIFIED="1537624106067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_8_1.coverage" NAME="download2-8-1 Coverage Results" MODIFIED="1537715379097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download2_6_2.coverage" NAME="download2-6-2 Coverage Results" MODIFIED="1537600723260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
     <SUITE FILE_PATH="coverage/WebCrawler$dictionary.coverage" NAME="dictionary Coverage Results" MODIFIED="1538362392898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/DataType" />
     <SUITE FILE_PATH="coverage/WebCrawler$youtube_downloader2.coverage" NAME="youtube-downloader2 Coverage Results" MODIFIED="1537543532289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Youtube" />
-    <SUITE FILE_PATH="coverage/WebCrawler$download3_6_2.coverage" NAME="download3-6-2 Coverage Results" MODIFIED="1538273746565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_5_2.coverage" NAME="4-5-2 Coverage Results" MODIFIED="1538536197432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
     <SUITE FILE_PATH="coverage/WebCrawler$download2_7_assignment.coverage" NAME="download2-7-assignment Coverage Results" MODIFIED="1537627048338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_7_2.coverage" NAME="download2-7-2 Coverage Results" MODIFIED="1537623156943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_5_3.coverage" NAME="download2-5-3 Coverage Results" MODIFIED="1537608485210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_6_1.coverage" NAME="download2-6-1 Coverage Results" MODIFIED="1537608597246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_2.coverage" NAME="download2-2 Coverage Results" MODIFIED="1537495801813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawler$python_class_4.coverage" NAME="python_class_4 Coverage Results" MODIFIED="1537718959750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_3_1.coverage" NAME="download2-3-1 Coverage Results" MODIFIED="1537608052073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Download" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_7_3.coverage" NAME="4-7-3 Coverage Results" MODIFIED="1538547914786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$python_class_1.coverage" NAME="python_class_1 Coverage Results" MODIFIED="1537718235281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_6_2.coverage" NAME="4-6-2 Coverage Results" MODIFIED="1538538278881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download3_3_2.coverage" NAME="download3-3-2 Coverage Results" MODIFIED="1538106550123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download3_2_1.coverage" NAME="download3-2-1 Coverage Results" MODIFIED="1538104618255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download3_7_1.coverage" NAME="download3-7-1 Coverage Results" MODIFIED="1538309455762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
+    <SUITE FILE_PATH="coverage/WebCrawler$xml.coverage" NAME="xml Coverage Results" MODIFIED="1538357917060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_5_1.coverage" NAME="4-5-1 Coverage Results" MODIFIED="1538537514436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$tuple.coverage" NAME="tuple Coverage Results" MODIFIED="1538361836690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/DataType" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_7_2.coverage" NAME="4-7-2 Coverage Results" MODIFIED="1538547575853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$python_class_3.coverage" NAME="python_class_3 Coverage Results" MODIFIED="1537718712374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_7_5.coverage" NAME="4-7-5 Coverage Results" MODIFIED="1538549364917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_assignmnet.coverage" NAME="download2-assignmnet Coverage Results" MODIFIED="1537498100882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_1.coverage" NAME="4-1 Coverage Results" MODIFIED="1538356418699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_6_1.coverage" NAME="4-6-1 Coverage Results" MODIFIED="1538537880788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_6_3.coverage" NAME="download2-6-3 Coverage Results" MODIFIED="1537601174606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_5_2.coverage" NAME="download2-5-2 Coverage Results" MODIFIED="1537608417512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$json_1.coverage" NAME="json-1 Coverage Results" MODIFIED="1538450220099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/WebCrawler$xml_assignment.coverage" NAME="xml_assignment Coverage Results" MODIFIED="1538359679747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_5_1.coverage" NAME="download2-5-1 Coverage Results" MODIFIED="1537586788040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$4_7_1.coverage" NAME="4-7-1 Coverage Results" MODIFIED="1538543850738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/CSV" />
+    <SUITE FILE_PATH="coverage/WebCrawler$json_2.coverage" NAME="json-2 Coverage Results" MODIFIED="1538450412609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_7_3.coverage" NAME="download2-7-3 Coverage Results" MODIFIED="1537624106067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download2_6_2.coverage" NAME="download2-6-2 Coverage Results" MODIFIED="1537600723260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Beautifulsoup" />
+    <SUITE FILE_PATH="coverage/WebCrawler$download3_6_2.coverage" NAME="download3-6-2 Coverage Results" MODIFIED="1538273746565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="xml.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/xml.py">
+      <file leaf-file-name="4-5-1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-5-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xml_assignment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/xml_assignment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="83" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="json-1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/json-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="-35">
+              <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json-2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/json-2.py">
+      <file leaf-file-name="4-5-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-5-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="520">
+              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json-3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/json-3.py">
+      <file leaf-file-name="4-7-1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4-7-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4-7-3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="json-assignment.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/json-assignment.py">
+      <file leaf-file-name="4-7-4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4-7-5.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4-7-6.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tuple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/DataType/tuple.py">
+      <file leaf-file-name="4-6-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-6-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="650">
+              <caret line="25" column="96" lean-forward="false" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="set.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/DataType/set.py">
+      <file leaf-file-name="4-5-3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/CSV/4-5-3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="208">
+              <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,23 +189,13 @@
     <findStrings>
       <find>func</find>
       <find>siselist_tab_</find>
+      <find>\</find>
+      <find>lamb</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/download2-assignmnet.py" />
-        <option value="$PROJECT_DIR$/Youtube/youtube-downloader.py" />
-        <option value="$PROJECT_DIR$/Youtube/youtube-downloader2.py" />
-        <option value="$PROJECT_DIR$/Youtube/youtube-downloader-assignment.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/download2-5-1.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/download2-5-2.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/download2-5-4.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/download2-6-1.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/food-list.html" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/download2-6-2.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/download-2-6-3.py" />
-        <option value="$PROJECT_DIR$/Beautifulsoup/cars.html" />
         <option value="$PROJECT_DIR$/Beautifulsoup/download2-6-3.py" />
         <option value="$PROJECT_DIR$/Beautifulsoup/download2-5-3.py" />
         <option value="$PROJECT_DIR$/Beautifulsoup/download2-7-1.py" />
@@ -217,6 +235,18 @@
         <option value="$PROJECT_DIR$/Data/json-3.py" />
         <option value="$PROJECT_DIR$/Data/json-2.py" />
         <option value="$PROJECT_DIR$/Data/json-assignment.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-5-2.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-5-3.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-5-1.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-6-2.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-6-3.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-6-1.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-7-1.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-7-2.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-7-3.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-7-4.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-7-6.py" />
+        <option value="$PROJECT_DIR$/Data/CSV/4-7-5.py" />
       </list>
     </option>
   </component>
@@ -247,8 +277,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +292,12 @@
             <path>
               <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebCrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebCrawler" type="462c0819:PsiDirectoryNode" />
               <item name="Requests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -274,6 +308,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,111 +336,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.json-assignment">
-    <configuration name="json-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.4-7-5">
+    <configuration name="4-7-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/CSV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WebCrawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/json-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/CSV/4-7-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="json-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4-7-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/CSV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WebCrawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/json-2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/CSV/4-7-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="json-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4-7-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/CSV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WebCrawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/json-3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/CSV/4-7-3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="json-assignment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4-7-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/CSV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WebCrawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/json-assignment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/CSV/4-7-4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="set" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4-7-5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/DataType" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/CSV" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="WebCrawler" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/DataType/set.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/CSV/4-7-5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.set" />
-      <item index="1" class="java.lang.String" itemvalue="Python.json-1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.json-2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.json-3" />
-      <item index="4" class="java.lang.String" itemvalue="Python.json-assignment" />
+      <item index="0" class="java.lang.String" itemvalue="Python.4-7-1" />
+      <item index="1" class="java.lang.String" itemvalue="Python.4-7-2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.4-7-3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.4-7-4" />
+      <item index="4" class="java.lang.String" itemvalue="Python.4-7-5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.json-assignment" />
-        <item index="1" class="java.lang.String" itemvalue="Python.json-3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.json-2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.json-1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.set" />
+        <item index="0" class="java.lang.String" itemvalue="Python.4-7-5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.4-7-4" />
+        <item index="2" class="java.lang.String" itemvalue="Python.4-7-3" />
+        <item index="3" class="java.lang.String" itemvalue="Python.4-7-2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.4-7-1" />
       </list>
     </recent_temporary>
   </component>
@@ -457,118 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Download/download2-2-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Download/download2-2-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Download/download2-3-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Download/download2-assignmnet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Download/download2-3-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-5-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-5-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-5-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-5-4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-6-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-6-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-6-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-7-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-7-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-7-3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-7-assignment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Beautifulsoup/download2-8-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -664,9 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -674,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,30 +623,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/forecast.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="3313" column="8" lean-forward="true" selection-start-line="3313" selection-start-column="8" selection-end-line="3313" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/forecast.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/forecast.xml" />
+    <entry file="file://$PROJECT_DIR$/Data/forecast.txt" />
     <entry file="file://$PROJECT_DIR$/Data/DataType/dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,111 +639,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-783">
           <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/DataType/set.py">
+    <entry file="file://$PROJECT_DIR$/Data/xml.py" />
+    <entry file="file://$PROJECT_DIR$/Data/xml_assignment.py" />
+    <entry file="file://$PROJECT_DIR$/Requests/download3-2-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="416">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/repo.json" />
+    <entry file="file://$PROJECT_DIR$/Data/member.json" />
+    <entry file="file://$PROJECT_DIR$/Data/json-1.py" />
+    <entry file="file://$PROJECT_DIR$/Data/assignment.json" />
+    <entry file="file://$PROJECT_DIR$/Data/json-2.py" />
+    <entry file="file://$PROJECT_DIR$/Data/json-assignment.py" />
+    <entry file="file://$PROJECT_DIR$/Data/json-3.py" />
+    <entry file="file://$PROJECT_DIR$/Data/CSV/csv_s1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/csv_s2.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/DataType/tuple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="390">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/xml.py">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/result_s2.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/result_s3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-6-3.py" />
+    <entry file="file://$PROJECT_DIR$/Data/DataType/set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-6-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-6-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="96" lean-forward="false" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-5-3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/xml_assignment.py">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Requests/download3-2-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="572">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/repo.json">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="52">
+          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/member.json">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-5-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-35">
+          <caret line="30" column="2" lean-forward="false" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/json-1.py">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-5-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="520">
+          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/json-3.py">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/assignment.json">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/json-2.py">
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/json-assignment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="702">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/CSV/4-7-5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
