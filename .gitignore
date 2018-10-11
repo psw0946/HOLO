@@ -13,3 +13,6 @@ WebCrawler/Beautifulsoup/CSSSelector_files
 WebCrawler/Beautifulsoup/*.html
 
 WebCrawler/Beautifulsoup/imagedown/
+
+Chatbot/MyBot/*
+!Chatbot/MyBot/bothub/

@@ -353,10 +353,6 @@
           <expand>
             <path>
               <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebCrawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebCrawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
