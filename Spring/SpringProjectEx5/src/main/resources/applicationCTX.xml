@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--
+	beans 태그에 xmlns:context="http://www.springframework.org/schema/context" 도 추가 
+	<context:annotation-config />
+	<bean class="com.javalec.ex.ApplicationConfig" /> (실제 클래스 이름)
+	자바로 설정한 DI를 XML 안으로 다음과 같이 들여올 수 있다.	
+	 -->
+	<bean id="student1" class="com.javalec.ex.Student">
+		<constructor-arg value="홍길동" />
+		<constructor-arg value="10" />
+		<constructor-arg>
+			<list>
+				<value>수영</value>
+				<value>요리</value>
+			</list>
+		</constructor-arg>
+		
+		<property name="height">
+			<value>187</value>
+		</property>
+		
+		<property name="weight" value="84" />
+	</bean>
+	
+	<bean id="studentInfo1" class="com.javalec.ex.StudentInfo">
+		<property name="student">
+			<ref bean="student1" />
+		</property>
+	</bean>
+
+</beans>

@@ -6,7 +6,7 @@
 	<bean id="bmiCalculator" class="com.javalec.ex.BMICalculator">
 		<property name="lowWeight">
 			<value>18.5</value>
-		</property>	
+		</property>
 		<property name="normal">
 			<value>23</value>
 		</property>
