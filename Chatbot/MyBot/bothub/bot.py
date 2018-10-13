@@ -4,6 +4,8 @@ from __future__ import (absolute_import, division, print_function, unicode_liter
 
 from bothub_client.bot import BaseBot
 from bothub_client.decorators import channel
+from bothub_client.messages import Message
+from .melon import Melon
 
 class Bot(BaseBot):
     """Represent a Bot logic which interacts with a user.
@@ -38,6 +40,22 @@ class Bot(BaseBot):
               ...
             }
     """
+    def handle_message(self, event, context):
+        message = event.get('content')
+
+        if message == '음악순위':
+            self.get_melon_chart(event)
+        else:
+            self.default_handler(event, context)
+
+
+    def get_melon_chart(self, event):
+        melon = Melon()
+        melonChart = melon.get_top10()
+
+        message = Message(event).set_text(melonChart)
+        self.send_message(message)
+
     @channel()
     def default_handler(self, event, context):
         """Handle a message received
