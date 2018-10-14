@@ -14,5 +14,7 @@ WebCrawler/Beautifulsoup/*.html
 
 WebCrawler/Beautifulsoup/imagedown/
 
+Chatbot/.idea/
 Chatbot/MyBot/*
 !Chatbot/MyBot/bothub/
+Chatbot/MyBot/bothub/__pycache__/
