@@ -44,16 +44,26 @@ class Bot(BaseBot):
         message = event.get('content')
 
         if message == '음악순위':
-            self.get_melon_chart(event)
+            self.get_melon_chart(event, 1, 10)
+        elif message == '11~50위':
+            self.get_melon_chart(event, 11, 50)
+        elif message == '51~100위':
+            self.get_melon_chart(event, 51, 100)
         else:
             self.default_handler(event, context)
 
 
-    def get_melon_chart(self, event):
+    def get_melon_chart(self, event, start, end):
         melon = Melon()
-        melonChart = melon.get_top10()
-
-        message = Message(event).set_text(melonChart)
+        melonChart = melon.get_topN(start, end)
+        if end == 10:
+            resMessage = "11~50위"
+            message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
+        elif end == 50:
+            resMessage = "51~100위"
+            message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
+        else:
+            message = Message(event).set_text(melonChart)
         self.send_message(message)
 
     @channel()
