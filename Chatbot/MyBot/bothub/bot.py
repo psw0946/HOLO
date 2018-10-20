@@ -6,6 +6,7 @@ from bothub_client.bot import BaseBot
 from bothub_client.decorators import channel
 from bothub_client.messages import Message
 from .melon import Melon
+from .movie import Movie
 
 class Bot(BaseBot):
     """Represent a Bot logic which interacts with a user.
@@ -49,6 +50,8 @@ class Bot(BaseBot):
             self.get_melon_chart(event, 11, 50)
         elif message == '51~100위':
             self.get_melon_chart(event, 51, 100)
+        elif message == '영화순위':
+            self.get_movie_chart(event)
         else:
             self.default_handler(event, context)
 
@@ -64,6 +67,12 @@ class Bot(BaseBot):
             message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
         else:
             message = Message(event).set_text(melonChart)
+        self.send_message(message)
+
+    def get_movie_chart(self, event):
+        movie = Movie()
+        movieChart = movie.get_top10()
+        message = Message(event).set_text(movieChart)
         self.send_message(message)
 
     @channel()
