@@ -41,7 +41,7 @@ poke = False
 pokedList = []
 for container in PokeContainer:
     containerID = container.attrs['id']
-    person = container.select('div._6a._6b')[1].select_one('a').text
+    person = container.select_one('div._6a._42us > div > a').text
     pokedList.append(person)
     testText = 'div#' + containerID + ' ' + 'div._6a > a._42ft._4jy0._4jy3._4jy1.selected._51sy'
     # testText = soup.select_one('div#' + containerID + ' ' + 'div._6a > a._42ft._4jy0._4jy3._4jy1.selected._51sy').text
