@@ -26,7 +26,7 @@ driver.get(URL)
 driver.implicitly_wait(10)
 
 driver.find_element_by_id('email').send_keys('ID~~~~')
-driver.find_element_by_id('pass').send_keys('PASSWORD~~~~')
+driver.find_element_by_id('pass').send_keys('PASSWORD``~~~')
 
 driver.find_element_by_id('loginbutton').click()
 driver.implicitly_wait(10)
@@ -38,8 +38,11 @@ soup = BeautifulSoup(driver.page_source, 'html.parser')
 PokeContainer = soup.select('div._4-u2._xct._4-u8')[0].select('div._xco') # 찌르기 리스트
 # print(PokeContainer)
 poke = False
+pokedList = []
 for container in PokeContainer:
     containerID = container.attrs['id']
+    person = container.select('div._6a._6b')[1].select_one('a').text
+    pokedList.append(person)
     testText = 'div#' + containerID + ' ' + 'div._6a > a._42ft._4jy0._4jy3._4jy1.selected._51sy'
     # testText = soup.select_one('div#' + containerID + ' ' + 'div._6a > a._42ft._4jy0._4jy3._4jy1.selected._51sy').text
     driver.find_element_by_css_selector(testText).click()
@@ -50,7 +53,7 @@ for container in PokeContainer:
 now = datetime.datetime.now()
 nowDate = now.strftime('%Y-%m-%d %H:%M:%S')
 if poke:
-    print(nowDate, 'Poke')
+    print(nowDate, 'Poke', pokedList)
 else:
     print(nowDate, 'No Poke')
 time.sleep(2)
