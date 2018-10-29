@@ -9,6 +9,7 @@ from .melon import Melon
 from .movie import Movie
 
 class Bot(BaseBot):
+    errorMsg = '오류남ㅋ'
     """Represent a Bot logic which interacts with a user.
 
     BaseBot superclass have methods belows:
@@ -58,21 +59,27 @@ class Bot(BaseBot):
 
     def get_melon_chart(self, event, start, end):
         melon = Melon()
-        melonChart = melon.get_topN(start, end)
-        if end == 10:
-            resMessage = "11~50위"
-            message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
-        elif end == 50:
-            resMessage = "51~100위"
-            message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
-        else:
-            message = Message(event).set_text(melonChart)
+        try:
+            melonChart = melon.get_topN(start, end)
+            if end == 10:
+                resMessage = "11~50위"
+                message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
+            elif end == 50:
+                resMessage = "51~100위"
+                message = Message(event).set_text(melonChart).add_quick_reply(resMessage)
+            else:
+                message = Message(event).set_text(melonChart)
+        except:
+            message = Message(event).set_text(self.errorMsg)
         self.send_message(message)
 
     def get_movie_chart(self, event):
         movie = Movie()
-        movieChart = movie.get_top10()
-        message = Message(event).set_text(movieChart)
+        try:
+            movieChart = movie.get_top10()
+            message = Message(event).set_text(movieChart)
+        except:
+            message = Message(event).set_text(self.errorMsg)
         self.send_message(message)
 
     @channel()

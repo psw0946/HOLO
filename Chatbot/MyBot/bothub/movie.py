@@ -30,7 +30,11 @@ class Movie:
             movie_link = 'https://movie.naver.com' + name.get('href')
             nr = req.get(movie_link)
             nsoup = BeautifulSoup(nr.text, 'html.parser')
-            score = nsoup.select_one('a#actualPointPersentBasic > div.star_score > span.st_off > span.st_on').text
+            scoreLink = nsoup.select_one('a#actualPointPersentBasic > div.star_score > span.st_off > span.st_on')
+            if scoreLink is None:
+                score = '정보 없음'
+            else:
+                score = scoreLink.text
             res = str(i) + "위: " + movie_name + " / " + score + "\n"
             # print(str(i) + "위: " + movie_name + " / " + score)
             response += res
