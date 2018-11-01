@@ -21,3 +21,6 @@ Chatbot/MyBot/*
 Chatbot/MyBot/bothub/__pycache__/
 
 JSP/LectureNote/
+
+Docker/docker_tutorial/
+Docker/LectureNote/
