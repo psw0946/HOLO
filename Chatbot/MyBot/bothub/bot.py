@@ -7,6 +7,7 @@ from bothub_client.decorators import channel
 from bothub_client.messages import Message
 from .melon import Melon
 from .movie import Movie
+from .schoolmenu import SchoolMenu
 
 class Bot(BaseBot):
     errorMsg = '오류남ㅋ'
@@ -53,9 +54,33 @@ class Bot(BaseBot):
             self.get_melon_chart(event, 51, 100)
         elif message == '영화순위':
             self.get_movie_chart(event)
+        elif message == '학식':
+            self.get_menu_request(event)
+        elif message == '학생회관':
+            self.get_menu(event, '학생회관')
+        elif message == '동원관':
+            self.get_menu(event, '동원관')
+        elif message == '자하연':
+            self.get_menu(event, '자하연')
+        elif message == '기숙사':
+            self.get_menu(event, '기숙사')
         else:
             self.default_handler(event, context)
 
+    def get_menu(self, event, place):
+        school_menu = SchoolMenu()
+        try:
+            res = school_menu.get_menu(place)
+            message = Message(event).set_text(res)
+        except:
+            message = Message(event).set_text(self.errorMsg)
+        self.send_message(message)
+
+    def get_menu_request(self, event):
+        res = "장소를 선택해주세요."
+        message = Message(event).set_text(res).add_quick_reply('학생회관').add_quick_reply('기숙사').add_quick_reply(
+            '자하연').add_quick_reply('동원관')
+        self.send_message(message)
 
     def get_melon_chart(self, event, start, end):
         melon = Melon()
