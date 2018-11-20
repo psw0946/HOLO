@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactInfo from './ContactInfo'
 import ContactDetails from './ContactDetails';
+import update from 'react-addons-update'; // state 내부 배열 변경을 위함
 import { hot } from 'react-hot-loader';
 
 class Contact extends React.Component {
@@ -26,6 +27,10 @@ class Contact extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
+
+    this.handleCreate = this.handleCreate.bind(this);
+    this.handleRemove = this.handleRemove.bind(this);
+    this.handleEdit = this.handleEdit.bind(this);
   }
 
   handleChange(e) {
@@ -40,6 +45,31 @@ class Contact extends React.Component {
     });
 
     console.log(key, 'is selected');
+  }
+
+  handleCreate(contact) {
+    this.setState({
+      contactData: update(this.state.contactData, { $push: [contact] })
+    });
+  }
+
+  handleRemove() {
+    this.setState({
+      contactData: update(this.state.contactData, { $splice: [[this.state.selectedKey, 1]] }),
+      // this.state.selectedKey부터 1개 원소 제거
+      selectedKey: -1
+    });
+  }
+
+  handleEdit(name, phone) {
+    this.setState({
+      contactData: update(this.state.contactData, {
+        [this.state.selectedKey]: {
+          name: { $set: name },
+          phone: { $set: phone }
+        }
+      })
+    });
   }
 
   render() {
