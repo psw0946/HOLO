@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactInfo from './ContactInfo'
 import ContactDetails from './ContactDetails';
+import ContactCreate from './ContactCreate';
 import update from 'react-addons-update'; // state 내부 배열 변경을 위함
 import { hot } from 'react-hot-loader';
 
@@ -93,6 +94,7 @@ class Contact extends React.Component {
         <div>{mapToComponents(this.state.contactData)}</div>
         <ContactDetails isSelected={this.state.selectedKey !== -1}
           contact={this.state.contactData[this.state.selectedKey]}/>
+        <ContactCreate onCreate={this.handleCreate}/>
       </div>
     );
   }
