@@ -1,6 +1,6 @@
 .DS_STORE
+.idea
 
-WebCrawler/.idea/
 WebCrawler/Practice/
 WebCrawler/Download/assignment_banner1.jpg
 WebCrawler/Download/assignment_movie1.mp4
@@ -17,7 +17,6 @@ WebCrawler/Beautifulsoup/*.html
 
 WebCrawler/Beautifulsoup/imagedown/
 
-Chatbot/.idea/
 Chatbot/MyBot/*
 !Chatbot/MyBot/bothub/
 Chatbot/MyBot/bothub/__pycache__/
