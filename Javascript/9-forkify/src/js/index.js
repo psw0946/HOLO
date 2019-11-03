@@ -36,3 +36,12 @@ elements.searchForm.addEventListener('submit', e => {
   e.preventDefault();
   controlSearch();
 });
+
+elements.searchResPages.addEventListener('click', e => {
+  const btn = e.target.closest('.btn-inline'); // element which is the closest ancestor of the selected element (may be null)
+  if (btn) {
+    const goToPage = parseInt(btn.dataset.goto, 10); // HTML5 에서 data-{} 로 attribute 을 주면 다음과 같이 dataset.{} 로 접근가능
+    searchView.clearResults();
+    searchView.renderResults(state.search.result, goToPage);
+  }
+});
