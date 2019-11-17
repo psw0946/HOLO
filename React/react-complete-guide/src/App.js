@@ -1,6 +1,7 @@
 import React from 'react';
 import Person from './Person/person'
 import './App.css';
+import Radium, { StyleRoot } from 'radium';
 
 class App extends React.Component {
   state = {
@@ -50,11 +51,16 @@ class App extends React.Component {
 
   render() {
     const style = {
-      backgroundColor: 'white',
+      backgroundColor: 'green',
+      color: 'white',
       font: 'inherit',
       border: '1px solid blue',
       padding: '8px',
       cursor: 'pointer',
+      ':hover': {
+        backgroundColor: 'lightgreen',
+        color: 'black',
+      },
     };
 
     let persons = null;
@@ -72,22 +78,38 @@ class App extends React.Component {
           })}
         </div>
       );
+
+      style.backgroundColor = 'red';
+      style[':hover'] = {
+        backgroundColor: 'salmon',
+        color: 'black',
+      }
+    }
+
+    const classes = [];
+    if (this.state.persons.length <= 2) {
+      classes.push('red');
+    }
+    if (this.state.persons.length <= 1) {
+      classes.push('bold');
     }
 
     return (
-      <div className="App">
-        <h1>Hi, I'm a React App</h1>
-        <p>This is really working!</p>
-        <button
-          style={style}
-          onClick={this.togglePersonsHandler}>
-          Toggle Persons
-        </button>
-        {persons}
-      </div>
+      <StyleRoot> {/* StyleRoot 는 pseudo selector 만 쓰면 필요없지만, media query 쓰면 이렇게 감싸줘야함 */}
+        <div className="App">
+          <h1>Hi, I'm a React App</h1>
+          <p className={classes.join(' ')}>This is really working!</p>
+          <button
+            style={style}
+            onClick={this.togglePersonsHandler}>
+            Toggle Persons
+          </button>
+          {persons}
+        </div>
+      </StyleRoot>
     );
     // return React.createElement('div', {className: 'App'}, React.createElement('h1', 'Hi~~'...
   }
 }
 
-export default App;
+export default Radium(App);
