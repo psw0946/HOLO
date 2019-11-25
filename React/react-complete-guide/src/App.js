@@ -1,6 +1,7 @@
 import React from 'react';
 import Person from './Person/person'
 import classes from './App.css';
+import ErrorBoundary from "./ErrorBoundary/ErrorBoundary";
 
 class App extends React.Component {
   state = {
@@ -56,13 +57,14 @@ class App extends React.Component {
       persons = (
         <div>
           {this.state.persons.map((person, index) => {
-            return <Person
-              click={() => this.deletePersonHandler(index)}
-              name={person.name}
-              age={person.age}
-              key={person.id} // key 를 줌으로써 더 효율적으로 할 수 있다. (바뀐 것만 업데이트)
-              changed={(event) => this.nameChangeHandler(event, person.id)}
-            />
+            return <ErrorBoundary key={person.id}>
+              <Person
+                click={() => this.deletePersonHandler(index)}
+                name={person.name}
+                age={person.age}
+                changed={(event) => this.nameChangeHandler(event, person.id)}
+              />
+            </ErrorBoundary>
           })}
         </div>
       );
