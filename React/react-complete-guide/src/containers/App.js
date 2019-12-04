@@ -4,6 +4,11 @@ import Cockpit from '../components/Cockpit/Cockpit';
 import classes from './App.css';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log('[App.js] constructor');
+  }
+
   state = {
     persons: [
       { id: 1, name: 'Max', age: 28 },
@@ -12,7 +17,26 @@ class App extends React.Component {
     ],
     otherState: 'some other value',
     showPersons: false,
+    showCockpit: true,
   };
+
+  static getDerivedStateFromProps(props, state) {
+    console.log('[App.js] getDerivedStateFromProps', props);
+    return state;
+  }
+
+  componentDidMount() {
+    console.log('[App.js] componentDidMount');
+  }
+
+  shouldComponentUpdate(nextProps, nextState, nextContext) {
+    console.log('[App.js] shouldComponentUpdate');
+    return true; // true 와 false 로 업데이트를 진행, 블락 시킬 수 있음.
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    console.log('[App.js] componentDidUpdate');
+  }
 
   deletePersonHandler = (personIndex) => {
     // const persons = this.state.persons; Array 는 reference type 이기 때문에 바로 조작하는 것은 위험
@@ -50,6 +74,7 @@ class App extends React.Component {
   };
 
   render() {
+    console.log('[App.js] render')
     let persons = null;
 
     if (this.state.showPersons) {
@@ -66,12 +91,21 @@ class App extends React.Component {
 
     return (
       <div className={classes.App}>
-        <Cockpit
-          showPersons={this.state.showPersons}
-          persons={this.state.persons}
-          clicked={this.togglePersonsHandler}
-          title={this.props.appTitle}
-        />
+        <button
+          onClick={() => {
+            this.setState({showCockpit: false})
+          }}
+        >
+          Remove Cockpit
+        </button>
+        {this.state.showCockpit &&
+          <Cockpit
+            showPersons={this.state.showPersons}
+            personsLength={this.state.persons.length}
+            clicked={this.togglePersonsHandler}
+            title={this.props.appTitle}
+          />
+        }
         {persons}
       </div>
     );
