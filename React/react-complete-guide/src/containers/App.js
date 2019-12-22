@@ -4,6 +4,7 @@ import Cockpit from '../components/Cockpit/Cockpit';
 import withClass from '../hoc/withClass';
 import classes from './App.css';
 import Aux from '../hoc/Aux';
+import AuthContext from '../context/auth-context';
 
 class App extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends React.Component {
     showPersons: false,
     showCockpit: true,
     changeCounter: 0,
+    authenticated: false,
   };
 
   static getDerivedStateFromProps(props, state) {
@@ -79,6 +81,10 @@ class App extends React.Component {
     });
   };
 
+  loginHandler = () => {
+    this.setState({ authenticated: true });
+  };
+
   render() {
     console.log('[App.js] render');
     let persons = null;
@@ -90,6 +96,7 @@ class App extends React.Component {
             persons={this.state.persons}
             clikced={this.deletePersonHandler}
             changed={this.nameChangeHandler}
+            isAuthenticated={this.state.authenticated}
           />
         </div>
       );
@@ -104,15 +111,22 @@ class App extends React.Component {
         >
           Remove Cockpit
         </button>
-        {this.state.showCockpit &&
+        <AuthContext.Provider
+          value={{
+            authenticated: this.state.authenticated,
+            login: this.loginHandler,
+          }}
+        >
+          {this.state.showCockpit &&
           <Cockpit
             showPersons={this.state.showPersons}
             personsLength={this.state.persons.length}
             clicked={this.togglePersonsHandler}
             title={this.props.appTitle}
           />
-        }
-        {persons}
+          }
+          {persons}
+        </AuthContext.Provider>
       </Aux>
     );
     // return React.createElement('div', {className: 'App'}, React.createElement('h1', 'Hi~~'...
