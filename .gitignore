@@ -1,4 +1,4 @@
-.DS_STORE
+.DS_Store
 .idea
 
 WebCrawler/Practice/
@@ -28,3 +28,5 @@ Docker/LectureNote/
 
 node_modules/
 Javascript/9-forkify/dist/js/bundle.js
+
+OpenGL/*/cmake-build-*
