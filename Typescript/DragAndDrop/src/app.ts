@@ -1,3 +1,15 @@
+// autobind decorator
+function autobind(target: any, methodName: string, descriptor: PropertyDescriptor) {
+    const originalMethod = descriptor.value;
+    const adjDescriptor: PropertyDescriptor = {
+        configurable: true,
+        get() {
+            return originalMethod.bind(this);
+        }
+    };
+    return adjDescriptor;
+}
+
 class ProjectInput {
     templateElement: HTMLTemplateElement;
     hostElement: HTMLDivElement;
@@ -22,6 +34,7 @@ class ProjectInput {
         this.attatch();
     }
 
+    @autobind
     private submitHandler(event: Event) {
         event.preventDefault();
         console.log(this.titleInputElement.value);
@@ -29,7 +42,7 @@ class ProjectInput {
 
     private configure() {
         // bind(this) 를 안해주면 submitHandler 의 this 는 event 를 가리킨다.
-        this.element.addEventListener('submit', this.submitHandler.bind(this));
+        this.element.addEventListener('submit', this.submitHandler);
     }
 
     private attatch() {
