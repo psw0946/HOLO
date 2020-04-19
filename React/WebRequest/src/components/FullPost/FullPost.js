@@ -12,7 +12,7 @@ class FullPost extends Component {
     if (this.props.id) {
       // 이전 것과 비교해서 업데이트 해야한다. 하지 않으면 state 가 업데이트 됨에 따라 무한 루프에 빠짐
       if (!this.state.loadedPost || (this.state.loadedPost && this.state.loadedPost.id !== this.props.id)) {
-        axios.get('https://jsonplaceholder.typicode.com/posts/' + this.props.id)
+        axios.get('/posts/' + this.props.id)
           .then(response => {
             this.setState({loadedPost: response.data});
           });
@@ -21,7 +21,7 @@ class FullPost extends Component {
   }
 
   deletePostHandler = () => {
-    axios.delete('https://jsonplaceholder.typicode.com/posts/' + this.props.id)
+    axios.delete('/posts/' + this.props.id)
       .then(response => {
         console.log(response);
       });
