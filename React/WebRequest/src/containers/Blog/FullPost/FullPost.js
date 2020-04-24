@@ -8,15 +8,13 @@ class FullPost extends Component {
     loadedPost: null
   }
 
-  componentDidUpdate(prevProps, prevState, snapshot) {
-    if (this.props.id) {
-      // 이전 것과 비교해서 업데이트 해야한다. 하지 않으면 state 가 업데이트 됨에 따라 무한 루프에 빠짐
-      if (!this.state.loadedPost || (this.state.loadedPost && this.state.loadedPost.id !== this.props.id)) {
-        axios.get('/posts/' + this.props.id)
-          .then(response => {
-            this.setState({loadedPost: response.data});
-          });
-      }
+  componentDidMount() {
+    console.log(this.props);
+    if (this.props.match.params.id) {
+      axios.get('/posts/' + this.props.match.params.id)
+        .then(response => {
+          this.setState({loadedPost: response.data});
+        });
     }
   }
 
