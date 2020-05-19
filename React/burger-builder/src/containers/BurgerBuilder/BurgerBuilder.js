@@ -36,7 +36,11 @@ class BurgerBuilder extends Component {
   // } event 핸들링으로 실행되어지는 함수는 this 를 바인드해줘야 한다. 아니면 밑의 문법을 쓰던가.
   //   updatePurchaseState 는 이벤트 핸들링으로 호출되는 게 아니기 때문에 괜춘했던 것)
   purchaseHandler = () => {
-    this.setState({purchasing: true});
+    if (this.props.isAuthenticated) {
+      this.setState({purchasing: true});
+    } else {
+      this.props.history.push('/auth');
+    }
   };
 
   purchaseCancelHandler = () => {
@@ -70,6 +74,7 @@ class BurgerBuilder extends Component {
             price={this.props.price}
             purchasable={this.updatePurchaseState(this.props.ings)} // rerendering 할 때마다 함수가 실행되어서 넘겨주는 방식이므로 직접 호출
             ordered={this.purchaseHandler}
+            isAuth={this.props.isAuthenticated}
           />
         </Aux>
       );
@@ -96,6 +101,7 @@ const mapStateToProps = state => {
     ings: state.burgerBuilder.ingredients,
     price: state.burgerBuilder.totalPrice,
     error: state.burgerBuilder.error,
+    isAuthenticated: state.auth.token !== null,
   }
 };
 
