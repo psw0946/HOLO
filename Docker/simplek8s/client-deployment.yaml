@@ -1,0 +1,19 @@
+apiVersion: apps/v1 # we want to use an object that is defined in the API version of apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: web # Deployment 가 label 이 component: web 인 pod 들을 관리한다.
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      containers:
+        - name: client
+          image: stephengrider/multi-client
+          ports:
+            - containerPort: 3000

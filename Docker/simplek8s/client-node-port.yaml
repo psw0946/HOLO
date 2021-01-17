@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: client-node-port
+spec:
+  type: NodePort
+  ports:
+    - port: 3050 # useless in here (port for other pod that needs this service)
+      targetPort: 3000 # 목적지 pod 의 port
+      nodePort: 31515 # 외부에 노출한 port
+  selector: # label 중 같은 key : value 인 것을 찾는다.
+    component: web
