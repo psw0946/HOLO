@@ -1,0 +1,8 @@
+sudo: required
+services:
+  - docker
+before_install:
+  - curl https://sdk.cloud.google.com | bash > /dev/null; # download Google Cloud SDK
+  - source $HOME/google-cloud-sdk/path.bash.inc # configure google cloud sdk locally
+  - gcloud components update kubectl # install and update kubectl inside travis environment
+  - gcloud auth activate-service-account --key-file service-account.json # authorize (aws 의 IAM 과 비슷한 service-account 로 인증 - service-account.json 은 콘솔에서 받음)
